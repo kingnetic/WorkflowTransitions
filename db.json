@@ -1,0 +1,22 @@
+{
+  "transitions": [
+    {
+      "SprFlujoAccionID": 1,
+      "Accion": "SolicitarPresupuestoAnual",
+      "EstadoInicial": "Registrado",
+      "EstadoFinal": "Solicitado"
+    },
+    {
+      "SprFlujoAccionID": 2,
+      "Accion": "AprobarPresupuestoAnual",
+      "EstadoInicial": "Solicitado",
+      "EstadoFinal": "Aprobado"
+    },
+    {
+      "SprFlujoAccionID": 3,
+      "Accion": "ConfirmarPresupuestoAnual",
+      "EstadoInicial": "Aprobado",
+      "EstadoFinal": "Confirmado"
+    }
+  ]
+}
