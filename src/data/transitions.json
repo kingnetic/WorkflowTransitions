@@ -16,5 +16,11 @@
     "Accion": "ConfirmarPresupuestoAnual",
     "EstadoInicial": "Aprobado",
     "EstadoFinal": "Confirmado"
+  },
+  {
+    "SprFlujoAccionID": 4,
+    "Accion": "CerrarPresupuestoAnual",
+    "EstadoInicial": "Confirmado",
+    "EstadoFinal": "Cerrado"
   }
 ]
